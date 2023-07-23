@@ -1,394 +1,12 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/contracts/helpers/TransferHelpers.sol": {
-      "lastModificationDate": 1667555608753,
-      "contentHash": "2eb74f65e6199477a4eeece6cf4ae95d",
-      "sourceName": "contracts/helpers/TransferHelpers.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": ["@openzeppelin/contracts/utils/Address.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["TransferHelpers"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/access/AccessControl.sol": {
-      "lastModificationDate": 1667537484588,
-      "contentHash": "e6ef731d275b1e7b2995f00fa56d9dab",
-      "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IAccessControl.sol",
-        "../utils/Context.sol",
-        "../utils/Strings.sol",
-        "../utils/introspection/ERC165.sol"
-      ],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["AccessControl"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1667537484588,
-      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": ["../utils/Context.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["Ownable"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1667537485012,
-      "contentHash": "af7bd64e1cfefbf6cb07f2adc1a25392",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": ["./IERC20.sol", "./extensions/IERC20Metadata.sol", "../../utils/Context.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["ERC20"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1667537485012,
-      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IERC20"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
-      "lastModificationDate": 1667537485012,
-      "contentHash": "2337f0279507b5edf14a07067adf0d05",
-      "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["SafeMath"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1667537484592,
-      "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
-      "sourceName": "@openzeppelin/contracts/utils/Address.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.1"],
-      "artifacts": ["Address"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1667537484592,
-      "contentHash": "cf46906c4035f51639a22265066a9e78",
-      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["Strings"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/access/IAccessControl.sol": {
-      "lastModificationDate": 1667537484588,
-      "contentHash": "57c84298234411cea19c7c284d86be8b",
-      "sourceName": "@openzeppelin/contracts/access/IAccessControl.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IAccessControl"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1667537484592,
-      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
-      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["Context"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1667537485012,
-      "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
-      "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": ["./IERC165.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["ERC165"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1667537485012,
-      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
-      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IERC165"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1667537485156,
-      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": ["../IERC20.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IERC20Metadata"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/contracts/VefiEcosystemToken.sol": {
-      "lastModificationDate": 1672635399939,
-      "contentHash": "3bd143deaaa2650ddc0d22ca90860e60",
-      "sourceName": "contracts/VefiEcosystemToken.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC20/ERC20.sol",
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/access/AccessControl.sol",
-        "@openzeppelin/contracts/access/Ownable.sol",
-        "@openzeppelin/contracts/utils/math/SafeMath.sol",
-        "./interfaces/IPancakeRouter.sol",
-        "./interfaces/IPancakeFactory.sol",
-        "./helpers/TransferHelpers.sol"
-      ],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["VefiEcosystemToken"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/contracts/interfaces/IPancakeRouter.sol": {
-      "lastModificationDate": 1672634851503,
-      "contentHash": "78c4009b1383166032e706dd77753456",
-      "sourceName": "contracts/interfaces/IPancakeRouter.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IPancakeRouter01", "IPancakeRouter02"]
-    },
-    "/home/kingsley/Code-Projects/vefi-updated-token-contract/contracts/interfaces/IPancakeFactory.sol": {
-      "lastModificationDate": 1672634696427,
-      "contentHash": "56b2cc77a8518895cdb974db5d456170",
-      "sourceName": "contracts/interfaces/IPancakeFactory.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IPancakeFactory"]
-    },
-    "/home/kingsley/Code-Projects/frog-coin/contracts/FrogCoin.sol": {
-      "lastModificationDate": 1682420340956,
-      "contentHash": "51fdf0a68ff45a9e380cb287f52274a0",
+    "F:\\WorkProjects\\frog-coin\\contracts\\FrogCoin.sol": {
+      "lastModificationDate": 1690109882732,
+      "contentHash": "362cc05441b00d7f9bbc7d02ce9dfbc8",
       "sourceName": "contracts/FrogCoin.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -396,8 +14,16 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
@@ -412,15 +38,19 @@
         "./interfaces/IPancakeFactory.sol",
         "./helpers/TransferHelpers.sol"
       ],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["FrogCoin"]
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "BEFE"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/contracts/interfaces/IPancakeRouter.sol": {
-      "lastModificationDate": 1681929160458,
-      "contentHash": "78c4009b1383166032e706dd77753456",
+    "F:\\WorkProjects\\frog-coin\\contracts\\interfaces\\IPancakeRouter.sol": {
+      "lastModificationDate": 1686247976448,
+      "contentHash": "1c1639c8df9ecaa2984c941e7eac2730",
       "sourceName": "contracts/interfaces/IPancakeRouter.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -428,22 +58,35 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IPancakeRouter01", "IPancakeRouter02"]
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPancakeRouter01",
+        "IPancakeRouter02"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/contracts/interfaces/IPancakeFactory.sol": {
-      "lastModificationDate": 1681929160458,
-      "contentHash": "56b2cc77a8518895cdb974db5d456170",
+    "F:\\WorkProjects\\frog-coin\\contracts\\interfaces\\IPancakeFactory.sol": {
+      "lastModificationDate": 1686247976447,
+      "contentHash": "c5b755440bb2875aad36a0b77d480a7b",
       "sourceName": "contracts/interfaces/IPancakeFactory.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -451,22 +94,34 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IPancakeFactory"]
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IPancakeFactory"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/contracts/helpers/TransferHelpers.sol": {
-      "lastModificationDate": 1681929160458,
-      "contentHash": "2eb74f65e6199477a4eeece6cf4ae95d",
+    "F:\\WorkProjects\\frog-coin\\contracts\\helpers\\TransferHelpers.sol": {
+      "lastModificationDate": 1686338134113,
+      "contentHash": "3a9481780de42ff6231665ffd7c7f210",
       "sourceName": "contracts/helpers/TransferHelpers.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -474,22 +129,36 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
-      "imports": ["@openzeppelin/contracts/utils/Address.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["TransferHelpers"]
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TransferHelpers"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/access/AccessControl.sol": {
-      "lastModificationDate": 1681929222343,
-      "contentHash": "e6ef731d275b1e7b2995f00fa56d9dab",
-      "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1687933512522,
+      "contentHash": "5a20b2cad87ddb61c7a3a6af21289e28",
+      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -497,8 +166,53 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\access\\AccessControl.sol": {
+      "lastModificationDate": 1687933512154,
+      "contentHash": "a2b1ec38a8dad325a596f926890772b8",
+      "sourceName": "@openzeppelin/contracts/access/AccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
@@ -509,38 +223,19 @@
         "../utils/Strings.sol",
         "../utils/introspection/ERC165.sol"
       ],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["AccessControl"]
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AccessControl"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1681929222343,
-      "contentHash": "e436cea06129be2c73cda4b1acc848b5",
-      "sourceName": "@openzeppelin/contracts/access/Ownable.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": ["../utils/Context.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["Ownable"]
-    },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1681929223743,
-      "contentHash": "af7bd64e1cfefbf6cb07f2adc1a25392",
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1687933512260,
+      "contentHash": "3ae5166c6827a9cf1a7a462d1632b464",
       "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -548,45 +243,38 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
-      "imports": ["./IERC20.sol", "./extensions/IERC20Metadata.sol", "../../utils/Context.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["ERC20"]
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1681929223743,
-      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IERC20"]
-    },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/utils/math/SafeMath.sol": {
-      "lastModificationDate": 1681929223747,
-      "contentHash": "2337f0279507b5edf14a07067adf0d05",
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeMath.sol": {
+      "lastModificationDate": 1687933512549,
+      "contentHash": "f6f4fda16c536e57069af40a245c985e",
       "sourceName": "@openzeppelin/contracts/utils/math/SafeMath.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -594,22 +282,69 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["SafeMath"]
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/utils/Address.sol": {
-      "lastModificationDate": 1681929222347,
-      "contentHash": "c476b3895a94798b88a4bb97399e6dfe",
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1687933512428,
+      "contentHash": "df36f7051335cd1e748b1b6463b7fdd3",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1687933512165,
+      "contentHash": "211ffd288c1588ba8c10eae668ca3c66",
       "sourceName": "@openzeppelin/contracts/utils/Address.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -617,45 +352,34 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": ["^0.8.1"],
-      "artifacts": ["Address"]
+      "versionPragmas": [
+        "^0.8.1"
+      ],
+      "artifacts": [
+        "Address"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/access/IAccessControl.sol": {
-      "lastModificationDate": 1681929222343,
-      "contentHash": "57c84298234411cea19c7c284d86be8b",
-      "sourceName": "@openzeppelin/contracts/access/IAccessControl.sol",
-      "solcConfig": {
-        "version": "0.8.17",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "outputSelection": {
-            "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IAccessControl"]
-    },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/utils/Context.sol": {
-      "lastModificationDate": 1681929222347,
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1687933512189,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "@openzeppelin/contracts/utils/Context.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -663,22 +387,69 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["Context"]
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1681929222347,
-      "contentHash": "cf46906c4035f51639a22265066a9e78",
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\access\\IAccessControl.sol": {
+      "lastModificationDate": 1687933512369,
+      "contentHash": "57c84298234411cea19c7c284d86be8b",
+      "sourceName": "@openzeppelin/contracts/access/IAccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAccessControl"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1687933512561,
+      "contentHash": "48686fc32a22a3754b8e63321857dd2a",
       "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -686,22 +457,37 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
-      "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["Strings"]
+      "imports": [
+        "./math/Math.sol",
+        "./math/SignedMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1681929223743,
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1687933512245,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "@openzeppelin/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -709,22 +495,36 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
-      "imports": ["./IERC165.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["ERC165"]
+      "imports": [
+        "./IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC165"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1681929223743,
-      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
-      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SignedMath.sol": {
+      "lastModificationDate": 1687933512555,
+      "contentHash": "9488ebd4daacfee8ad04811600d7d061",
+      "sourceName": "@openzeppelin/contracts/utils/math/SignedMath.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -732,22 +532,34 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
       "imports": [],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IERC165"]
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "SignedMath"
+      ]
     },
-    "/home/kingsley/Code-Projects/frog-coin/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1681929224119,
-      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1687933512510,
+      "contentHash": "fe63409d8a06818b926cf89e0ea88b1b",
+      "sourceName": "@openzeppelin/contracts/utils/math/Math.sol",
       "solcConfig": {
-        "version": "0.8.17",
+        "version": "0.8.19",
         "settings": {
           "optimizer": {
             "enabled": true,
@@ -755,15 +567,367 @@
           },
           "outputSelection": {
             "*": {
-              "*": ["abi", "evm.bytecode", "evm.deployedBytecode", "evm.methodIdentifiers", "metadata"],
-              "": ["ast"]
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
             }
           }
         }
       },
-      "imports": ["../IERC20.sol"],
-      "versionPragmas": ["^0.8.0"],
-      "artifacts": ["IERC20Metadata"]
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1687933512414,
+      "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1687933512432,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\contracts\\StakingPool.sol": {
+      "lastModificationDate": 1687472295803,
+      "contentHash": "53b3594d2b33a8afe3f844e619008f14",
+      "sourceName": "contracts/StakingPool.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/access/AccessControl.sol",
+        "@openzeppelin/contracts/security/Pausable.sol",
+        "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+        "@openzeppelin/contracts/utils/math/SafeMath.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "./interfaces/IStakingPool.sol",
+        "./helpers/TransferHelper.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StakingPool"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\contracts\\interfaces\\IStakingPool.sol": {
+      "lastModificationDate": 1687472295805,
+      "contentHash": "ee865c224db3d24725247906b82262a3",
+      "sourceName": "contracts/interfaces/IStakingPool.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IStakingPool"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\contracts\\helpers\\TransferHelper.sol": {
+      "lastModificationDate": 1687472295804,
+      "contentHash": "a9ec2286cad53f1ecf5b983e4304c25f",
+      "sourceName": "contracts/helpers/TransferHelper.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/utils/Address.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TransferHelpers"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\security\\Pausable.sol": {
+      "lastModificationDate": 1687933512526,
+      "contentHash": "25c8108f36fdd472bc78d4c4af240c11",
+      "sourceName": "@openzeppelin/contracts/security/Pausable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Pausable"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\node_modules\\@openzeppelin\\contracts\\security\\ReentrancyGuard.sol": {
+      "lastModificationDate": 1687933512539,
+      "contentHash": "1535f8c0c68463f8c1b5239f7584e71f",
+      "sourceName": "@openzeppelin/contracts/security/ReentrancyGuard.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ReentrancyGuard"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\contracts\\StakingPoolActions.sol": {
+      "lastModificationDate": 1687472295804,
+      "contentHash": "c185e6e7c76d8c7b18e5bfefca0942eb",
+      "sourceName": "contracts/StakingPoolActions.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/Ownable.sol",
+        "@openzeppelin/contracts/access/AccessControl.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "./StakingPool.sol",
+        "./helpers/TransferHelper.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "StakingPoolActions"
+      ]
+    },
+    "F:\\WorkProjects\\frog-coin\\contracts\\test\\TestERC20.sol": {
+      "lastModificationDate": 1687472295805,
+      "contentHash": "5837fc1ef23337923aac76f95db45fa2",
+      "sourceName": "contracts/test/TestERC20.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "TestERC20"
+      ]
     }
   }
 }

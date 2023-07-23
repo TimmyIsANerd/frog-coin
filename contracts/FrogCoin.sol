@@ -9,7 +9,7 @@ import "./interfaces/IPancakeRouter.sol";
 import "./interfaces/IPancakeFactory.sol";
 import "./helpers/TransferHelpers.sol";
 
-contract FrogCoin is Ownable, AccessControl, ERC20 {
+contract BEFE is Ownable, AccessControl, ERC20 {
   using SafeMath for uint256;
 
   address public taxCollector;
@@ -45,7 +45,7 @@ contract FrogCoin is Ownable, AccessControl, ERC20 {
     _mint(_msgSender(), amount);
     _grantRole(taxExclusionPrivilege, _msgSender());
     _grantRole(taxExclusionPrivilege, _taxCollector);
-    pancakeRouter = IPancakeRouter02(0xBb5e1777A331ED93E07cF043363e48d320eb96c4);
+    pancakeRouter = IPancakeRouter02(0x518206922Ce10787791578299Dde90d94Dd6FAA0);
 
     address pair = IPancakeFactory(pancakeRouter.factory()).createPair(pancakeRouter.WETH(), address(this));
 
@@ -63,9 +63,9 @@ contract FrogCoin is Ownable, AccessControl, ERC20 {
     )
   {
     uint256 totalTaxValue = amount.mul(uint256(taxPercentage)).div(100);
-    forHolders = totalTaxValue.div(3);
-    forPools = totalTaxValue.div(3);
-    forTaxCollector = totalTaxValue.div(3);
+    forHolders = totalTaxValue.div(5);
+    forPools = totalTaxValue.div(5);
+    forTaxCollector = totalTaxValue.div(5);
   }
 
   function _swapAndLiquify(uint256 amount) private lockswap {
