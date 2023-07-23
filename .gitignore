@@ -1,4 +1,7 @@
-node_modules
+node_modules/
+build/
+migrations
 .env
-standard-input*.json
-*Flat.sol
+artifacts
+cache
+standard-input.json
